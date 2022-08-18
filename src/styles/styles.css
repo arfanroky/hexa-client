@@ -1,0 +1,74 @@
+
+*, 
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: .9rem;
+    background-color: aliceblue;
+}
+
+.headPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input{
+    outline: none;
+    border: 1px solid bisque;
+    display: block;
+    padding: .5rem 3rem .5rem .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+table{
+    border-collapse:  collapse;
+    box-shadow: 0 5px 10px rgba(0,0,0,.4);
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+}
+
+thead{
+    box-shadow: 0 5px 10px rgba(0,0,0,.4);
+}
+
+th{
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+td{
+    padding: 1rem 2rem;
+}
+
+.btn{
+    border-radius: 4px;
+    padding: .3rem 1rem;
+    text-align: center;
+    background-color:bisque;
+    cursor: pointer;
+}
