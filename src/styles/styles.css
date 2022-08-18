@@ -9,7 +9,7 @@
 
 .container{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     justify-content: center;
     align-items: center;
