@@ -3,11 +3,11 @@ import React from 'react';
 const TableRow = ({user}) => {
     return (
         <tr>
-        <td> {user.id}</td>
-        <td>{user.name}</td>
-        <td>{user.username}</td>
-        <td>{user.email}</td>
-        <td> <p className='btn'>{user.website}</p></td>
+        <td scope="row" data-label="S/N"> {user.id}</td>
+        <td data-label="Name">{user.name}</td>
+        <td data-label="Username">{user.username}</td>
+        <td data-label="Email">{user.email}</td>
+        <td data-label="Website"> <p className='btn'>{user.website}</p></td>
         </tr>
     );
 };

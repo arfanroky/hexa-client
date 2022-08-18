@@ -44,11 +44,11 @@ const Users = () => {
       <table>
         <thead>
           <tr>
-            <th>SR</th>
-            <th>Name</th>
-            <th>Username</th>
-            <th>Email</th>
-            <th>Website</th>
+            <th scope="col">S/N</th>
+            <th scope="col">Name</th>
+            <th scope="col">Username</th>
+            <th scope="col">Email</th>
+            <th scope="col">Website</th>
           </tr>
         </thead>
 
