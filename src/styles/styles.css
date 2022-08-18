@@ -41,7 +41,6 @@ input{
 }
 
 
-
 table{
     border-collapse:  collapse;
     box-shadow: 0 5px 10px rgba(0,0,0,.4);
@@ -72,4 +71,15 @@ td{
     text-align: center;
     background-color:bisque;
     cursor: pointer;
+}
+
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    z-index: 10;
+    height: 100vh;
+    background-color: white;
 }

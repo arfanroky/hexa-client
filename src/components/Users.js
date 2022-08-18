@@ -9,7 +9,7 @@ const Users = () => {
   const [query, setQuery] = useState('');
 
   useEffect(() => {
-    const url = 'http://localhost:5000/api/users';
+    const url = 'https://pacific-mesa-40833.herokuapp.com/api/users';
 
     const fetchRequest = async () => {
       setLoading(true);
@@ -28,7 +28,7 @@ const Users = () => {
   }, []);
 
   if (loading) {
-    return <p>Loading....</p>;
+    return <div className='loading'>Loading....</div>;
   }
 
 
